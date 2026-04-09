@@ -61,4 +61,11 @@
 ## 16. O Bash Shell e script básicos
     Os scripts em Bash facilitam a automação de atividades no Linux por meio de séries de comandos que fazem uso de variáveis e funções para estruturar processos. Eles funcionam de maneira dinâmica ao receberam parâmetros externos, executarem cálculos com expressões numéricas e tomarem resoluções através de comandos condicionais (if). A conexão com o sistema é realizada através da substituição de comandos e pelo direcionamento de entrada e saída, possibilitando que os scripts tratem informações de arquivos e produzam resultados de maneira automatizada e eficaz.
 
-## 17. 
+## 17. Impressão
+    O sistema de impressão e manipulação de documentos em plataformas semelhantes ao Unix é fundamentado no CUPS, que controla impressoras por meio de uma interface na web (localhost:631) e utiliza comandos como lp e lpr para o envio de documentos, além de permitir a personalização de configurações com lpoptions. Para produzir resultados visuais de alta qualidade, faz-se uso do PostScript, que é apropriado para gráficos vetoriais e fontes que podem ser redimensionadas, e do PDF, que garante uniformidade na visualização em diferentes sistemas. A criação desses documentos envolve várias ferramentas funcionais: o enscript transforma texto em PostScript; o pdftk serve como um manipulador abrangente para combinar, dividir, criptografar e consertar PDFs; o pdfinfo coleta metadados; o flpsed faz alterações em arquivos PostScript; e o pdfmod proporciona uma alternativa gráfica fácil para alterar a estrutura de documentos PDF.
+
+## 18. O básico da segurança local
+    A proteção no Linux se concentra no gerenciamento do usuário root, que possui domínio pleno sobre ações essenciais, mas cujo acesso é regulado e monitorado por meio do sudo (analisando o /etc/sudoers e criando registros de auditoria). O sistema assegura a proteção das informações mediante o isolamento de processos e a aplicação de criptografia SHA-512 para as senhas, utilizando o PAM para assegurar que sejam robustas. Por último, uma defesa eficiente necessita de uma harmonia entre a tecnologia e ações humanas, como a supervisão do acesso físico e a implementação regular de atualizações de segurança.
+
+## 19. Conclusão do curso
+    A prova final para a liberação do certificado.
