@@ -12,7 +12,14 @@
 - 11. [Operações de Arquivo](#11-operações-de-arquivo)
 - 12. [Editores de texto](#12-editores-de-texto)
 - 13. [Ambiente do Usuário](#13-ambiente-do-usuário)
-
+- 14. [Manipulação de Texto](#14-manipulação-de-texto)
+- 15. [Operações de rede](#15-operações-de-rede)
+- 16. [O Bash Shell e script básicos](#16-o-bash-shell-e-script-básicos)
+- 17. [Impressão](#17-impressão)
+- 18. [O básico da segurança local](#18-o-básico-da-segurança-local)
+- 19. [Conclusão do curso](#19-conclusão-do-curso)
+ 
+ 
 ## 1. Overview do curso
     No primeiro capitulo é falado um pouco do geral do curso, como a carga horária, competencias esperadas, o intrutor do curso e citações feitas pelo autor.
 
@@ -68,4 +75,4 @@
     A proteção no Linux se concentra no gerenciamento do usuário root, que possui domínio pleno sobre ações essenciais, mas cujo acesso é regulado e monitorado por meio do sudo (analisando o /etc/sudoers e criando registros de auditoria). O sistema assegura a proteção das informações mediante o isolamento de processos e a aplicação de criptografia SHA-512 para as senhas, utilizando o PAM para assegurar que sejam robustas. Por último, uma defesa eficiente necessita de uma harmonia entre a tecnologia e ações humanas, como a supervisão do acesso físico e a implementação regular de atualizações de segurança.
 
 ## 19. Conclusão do curso
-    A prova final para a liberação do certificado.
+    A prova final juntando todo o conhecimento do curso para a liberação do certificado.

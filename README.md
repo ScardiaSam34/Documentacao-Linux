@@ -1,1 +1,0 @@
-# Documenta-o-Linux
